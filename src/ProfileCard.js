@@ -1,9 +1,9 @@
-function ProfileCard(props){
+function ProfileCard({title, handle}){
     return(
         <div style={{border: "2px solid black"}}>
             <h3>Profile card</h3>
-            <h2>Title: {props.title}</h2>
-            <h2>Name: {props.handle}</h2>
+            <h2>Title: {title}</h2>
+            <h2>Name: {handle}</h2>
         </div>
     )
 }
